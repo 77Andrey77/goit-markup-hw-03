@@ -105,6 +105,9 @@ p {
 .auth-nav .item + .item {
   margin-left: 30px;
 }
+.auth-nav img {
+  margin-right: 10px;
+}
 
 .auth-nav .link {
   display: block;
@@ -324,20 +327,30 @@ p {
 .footer-main {
   display: flex;
   width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.test {
+  display: flex;
+  /* background-color: deeppink; */
+  align-items: center;
+}
+.test .section {
+  /* background-color: gray; */
+  margin-left: 179px;
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
 
-.footer .logo {
-  padding-top: 48px;
-}
 .foter-logo-studio {
   color: #ffffff;
 }
 .footer .item {
-  margin-top: 10px;
+  margin-top: 9px;
 }
 .footer .map {
   color: #ffffff;
@@ -359,14 +372,9 @@ p {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 1.14;
-
-  margin-left: 179px;
-  margin-top: 56px;
-  /* justify-content: center; */
 }
 .footer-soc {
   display: flex;
-  margin-left: 179px;
 }
 
 .footer-soc .soc {
@@ -374,7 +382,6 @@ p {
   padding: 10px 12px;
   border-radius: 22px;
   background-color: rgba(255, 255, 255, 0.1);
-
   margin-top: 21px;
 }
 .footer-soc .soc + .soc {
@@ -384,8 +391,12 @@ p {
 .footer-soc .soc:focus {
   background-color: var(--accent-color);
 }
-.prizuv .foot {
+.prizuv {
+  text-align: end;
+}
+.prizuv .button {
   margin-top: 21px;
+  justify-content: end;
 }
 
 .finish {
@@ -394,7 +405,6 @@ p {
   padding-bottom: 21px;
   padding-top: 18px;
   border: 2px solid var(--accent-color);
-  margin-top: 28px;
 }
 .button {
   display: inline-block;
@@ -408,9 +418,6 @@ p {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-
-  /* display: flex; */
-  align-items: end;
   text-align: center;
   letter-spacing: 0.06em;
 }
