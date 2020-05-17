@@ -8,44 +8,55 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- шапка сайта -->
-    <header class="list">
-      <nav>
-        <!-- логотип ссылка -->
-        <a href="./index.html" class="logo link">
-          Web <span class="logo-studio">Studio</span>
-        </a>
-        <!-- навигация по сайту-ссылки -->
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="link">Студия</a></li>
-          <li><a href="./portfolio.html" class="link carrent">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
-        </ul>
-      </nav>
-
-      <!-- контакты-ссылки -->
-      <ul class="auth-nav list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link">
-            <img src="./image/icon_mail.svg" alt="mail" />
-            info@devstudio.com
+    <header class="page-header list">
+      <div class="conteyner">
+        <nav class="main-nav">
+          <!-- логотип ссылка -->
+          <a href="./index.html" class="logo link">
+            Web <span class="logo-studio">Studio</span>
           </a>
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="link">
-            <img src="./image/icon_phone.svg" alt="telephone" />
-            +38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+          <!-- навигация по сайту-ссылки -->
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="link">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <!-- контакты-ссылки -->
+        <ul class="auth-nav list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link">
+              <img src="./image/icon_mail.svg" alt="mail" />
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="link">
+              <img src="./image/icon_phone.svg" alt="telephone" />
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
+
     <main>
       <section class="card">
-        <h1>наши работы</h1>
+        <!-- <h1>наши работы</h1> -->
         <ul class="tabls list">
           <li><button type="button" class="knopka">Все</button></li>
           <li><button type="button" class="knopka">Веб-сайты</button></li>
@@ -55,7 +66,7 @@
         </ul>
         <ul class="works list">
           <!-- Технокряк -->
-          <li>
+          <li class="flex-element">
             <a href="" class="link">
               <img
                 src="./image/portfolio/Технокряк.jpg"
@@ -65,15 +76,15 @@
               />
               <h2 class="card-title">Технокряк</h2>
               <p class="card-work">Веб-сайт</p>
-              <p class="card-text">
+              <!-- <p class="card-text">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
-              </p>
+              </p> -->
             </a>
           </li>
           <!-- Постер New Orlean vs Golden Stars -->
-          <li>
+          <li class="flex-element">
             <a href="" class="link">
               <img
                 src="./image/portfolio/Постер.jpg"
@@ -83,15 +94,15 @@
               />
               <h2 class="card-title">Постер New Orlean vs Golden Stars</h2>
               <p class="card-work">Дизайн</p>
-              <p class="card-text">
+              <!-- <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
                 recusandae ut aliquam assumenda nostrum explicabo eligendi
                 magnam praesentium dignissimos neque.
-              </p>
+              </p> -->
             </a>
           </li>
           <!-- Ресторан Seafood -->
-          <li>
+          <li class="flex-element">
             <a href="" class="link">
               <img
                 src="./image/portfolio/Ресторан.jpg"
@@ -101,15 +112,15 @@
               />
               <h2 class="card-title">Ресторан Seafood</h2>
               <p class="card-work">Приложение</p>
-              <p class="card-text">
+              <!-- <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
                 voluptatum vitae placeat quae itaque, sit iure accusantium
                 beatae hic voluptate?
-              </p>
+              </p> -->
             </a>
           </li>
           <!-- Проект Prime -->
-          <li>
+          <li class="flex-element">
             <a href="" class="link">
               <img
                 src="./image/portfolio/Prime.jpg"
@@ -119,15 +130,15 @@
               />
               <h2 class="card-title">Проект Prime</h2>
               <p class="card-work">Маркетинг</p>
-              <p class="card-text">
+              <!-- <p class="card-text">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
                 eveniet assumenda nulla tempora velit commodi reiciendis culpa
                 recusandae accusantium amet.
-              </p>
+              </p> -->
             </a>
           </li>
           <!-- Проект Boxes -->
-          <li>
+          <li class="flex-element">
             <a href="" class="link">
               <img
                 src="./image/portfolio/Boxes.jpg"
@@ -137,15 +148,15 @@
               />
               <h2 class="card-title">Проект Boxes</h2>
               <p class="card-work">Приложение</p>
-              <p class="card-text">
+              <!-- <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
                 accusantium in ex. Odit consectetur, adipisci delectus vel hic
                 repellendus pariatur.
-              </p>
+              </p> -->
             </a>
           </li>
           <!-- Inspiration has no Borders -->
-          <li>
+          <li class="flex-element">
             <a href="" class="link">
               <img
                 src="./image/portfolio/Inspiration.jpg"
@@ -155,15 +166,15 @@
               />
               <h2 class="card-title">Inspiration has no Borders</h2>
               <p class="card-work">Веб-сайт</p>
-              <p class="card-text">
+              <!-- <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores similique porro ab. Repellat esse numquam modi eaque
                 eum nulla doloremque.
-              </p></a
-            >
+              </p> -->
+            </a>
           </li>
           <!-- Издание Limited Edition -->
-          <li>
+          <li class="flex-element">
             <a href="" class="link">
               <img
                 src="./image/portfolio/Издание.jpg"
@@ -173,15 +184,15 @@
               />
               <h2 class="card-title">Издание Limited Edition</h2>
               <p class="card-work">Дизайн</p>
-              <p class="card-text">
+              <!-- <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
                 mollitia molestiae! Numquam laboriosam dolorem optio quis
                 tenetur. Ullam, quis et?
-              </p></a
-            >
+              </p> -->
+            </a>
           </li>
           <!-- Проект LAB -->
-          <li>
+          <li class="flex-element">
             <a href="" class="link">
               <img
                 src="./image/portfolio/LAB.jpg"
@@ -191,15 +202,15 @@
               />
               <h2 class="card-title">Проект LAB</h2>
               <p class="card-work">Маркетинг</p>
-              <p class="card-text">
+              <!-- <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
                 quisquam saepe suscipit. Veniam animi accusamus, mollitia id hic
                 nostrum unde!
-              </p></a
-            >
+              </p> -->
+            </a>
           </li>
           <!-- Growing Business -->
-          <li>
+          <li class="flex-element">
             <a href="" class="link">
               <img
                 src="./image/portfolio/Growing-Business.jpg"
@@ -209,12 +220,12 @@
               />
               <h2 class="card-title">Growing Business</h2>
               <p class="card-work">Приложение</p>
-              <p class="card-text">
+              <!-- <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
                 cum eum sequi aspernatur consectetur soluta, illum ipsam iste
                 laudantium possimus?
-              </p></a
-            >
+              </p> -->
+            </a>
           </li>
         </ul>
       </section>
