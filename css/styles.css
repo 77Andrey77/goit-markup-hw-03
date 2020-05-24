@@ -259,7 +259,8 @@ img {
   padding-bottom: 24px;
 }
 .social-link .soc {
-  padding: 10px 12px;
+  display: block;
+  padding: 12px 12px;
   border-radius: 22px;
 
   margin-right: 11px;
@@ -405,10 +406,11 @@ img {
 }
 
 .footer-soc .soc {
-  padding: 10px 12px;
+  display: block;
+  padding: 12px 12px;
   border-radius: 22px;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-right: 11px;
+  margin-right: 10px;
 }
 .footer-soc .soc:last-child {
   margin-right: 0px;
