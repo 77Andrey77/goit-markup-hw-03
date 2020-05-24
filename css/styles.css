@@ -256,6 +256,7 @@ img {
 .social-link {
   display: flex;
   width: 270px;
+  padding-bottom: 24px;
 }
 .social-link .soc {
   padding: 10px 12px;
@@ -305,7 +306,7 @@ img {
 .team .list {
   display: flex;
   justify-content: center;
-  padding-bottom: 24px;
+  /* padding-bottom: 24px; */
 }
 
 .team .people:last-child {
@@ -355,8 +356,10 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 48px;
+  padding-bottom: 28px;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -381,7 +384,6 @@ img {
 }
 .adres .logo {
   display: block;
-  margin-top: 48px;
   margin-bottom: 10px;
 }
 .adres .item {
@@ -389,9 +391,6 @@ img {
 }
 .adres .item:last-child {
   margin-bottom: 0px;
-}
-.adres {
-  padding-bottom: 28px;
 }
 
 .join {
