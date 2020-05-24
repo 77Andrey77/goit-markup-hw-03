@@ -70,6 +70,7 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  margin-right: 85px;
 }
 /* цвет логотипа второго слова */
 .logo-studio {
@@ -78,7 +79,7 @@ img {
 
 .site-nav {
   display: flex;
-  margin-left: 85px;
+  /* margin-left: 85px; */
 }
 .header-nav {
   align-items: center;
